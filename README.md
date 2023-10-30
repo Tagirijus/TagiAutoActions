@@ -9,6 +9,7 @@ Actions
 -------
 
 - **TaskRemoveDueDate**: Removes the due date when a task is moved into a specific column.
+- **PriorityColor**: Colorizes task on creation or modification according to their priority (see config).
 
 
 Compatibility
