@@ -6,6 +6,7 @@ use Kanboard\Core\Plugin\Base;
 use Kanboard\Core\Translator;
 use Kanboard\Plugin\TagiAutoActions\Action\TaskRemoveDueDate;
 use Kanboard\Plugin\TagiAutoActions\Action\PriorityColor;
+use Kanboard\Plugin\TagiAutoActions\Action\LastPositionOnColumnMove;
 
 
 class Plugin extends Base
@@ -15,6 +16,7 @@ class Plugin extends Base
         // Auto actions
         $this->actionManager->register(new TaskRemoveDueDate($this->container));
         $this->actionManager->register(new PriorityColor($this->container));
+        $this->actionManager->register(new LastPositionOnColumnMove($this->container));
 
         // Helper
         $this->helper->register('tagiAutoActionsHelper', '\Kanboard\Plugin\TagiAutoActions\Helper\TagiAutoActionsHelper');
