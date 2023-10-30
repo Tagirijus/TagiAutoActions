@@ -7,4 +7,5 @@ return array(
     'Priority colors' => 'Prioritäts-Farben',
     'Here you can set the color names for each priority level from 0 to 3. Possible colors are: yellow, blue, green, purple, red, orange, grey, brown, deep_orange, dark_grey, pink, teal, cyan, lime, light_green, amber.' => 'Hier kann man die Farben für jede der Prioritätsstufen von 0 bis 3 setzen. Mögliche Farbwerte sind: yellow, blue, green, purple, red, orange, grey, brown, deep_orange, dark_grey, pink, teal, cyan, lime, light_green, amber.',
     'Priority' => 'Priorität',
+    'Set color based on priority of the task. Yet with 0-3 priority levels assigned in the config.' => 'Eine Farbe basierend auf der Priorität der Aufgabe zuweisen. Allerdings mit allen 0-3 Prioritäts-Leveln, die man näher in der Config befärben kann.'
 );

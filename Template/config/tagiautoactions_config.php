@@ -1,7 +1,7 @@
 <div class="page-header">
-    <h2><?= t('WeekHelper hours view configuration') ?></h2>
+    <h2><?= t('TagiAutoActions configuration') ?></h2>
 </div>
-<form method="post" action="<?= $this->url->href('WeekHelperController', 'saveConfigHoursView', ['plugin' => 'WeekHelper']) ?>" autocomplete="off">
+<form method="post" action="<?= $this->url->href('TagiAutoActionsController', 'saveConfig', ['plugin' => 'TagiAutoActions']) ?>" autocomplete="off">
     <?= $this->form->csrf() ?>
 
     <br>
