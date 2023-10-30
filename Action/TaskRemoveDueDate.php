@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\TaskAutoRemoveDueDate\Action;
+namespace Kanboard\Plugin\TagiAutoActions\Action;
 
 use Kanboard\Model\TaskModel;
 use Kanboard\Action\Base;
